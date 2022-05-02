@@ -1,10 +1,5 @@
-function App() {
+import { Widget } from "./components/Widget";
 
-  return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
-  )
+export function App() {
+  return <Widget />
 }
-
-export default App
